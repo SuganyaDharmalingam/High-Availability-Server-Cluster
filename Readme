@@ -1,0 +1,12 @@
+*************High-Availability VMware Server Cluster*********************
+
+Establish a connection to the Bonn-Rhein University web server,  remotely via OpenVPN
+
+Through the vSphere Web Client at https://10.20.108.209/ui/?locale=en_US 
+
+Choosing "SMG Cluster" as compute resource, with the Selection of "Thin Provision" as virtual disk format, "Datastore Default" as storage policy and "Praktikum" as datastore.
+
+The new VM is then selected from the panel "VM Hardware"
+
+The virtual machine is suspended and once completed power it back on, continue observing the
+ping output, and the “Fault Tolerance” is observed. Finally clone to the Virtual Machine and further changes were observed.
